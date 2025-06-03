@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+.container{
+    padding: 20px 150px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-part1 i{
+    font-size: 30px;
+    color: #326CF9;
+}
+.header-part1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+}
+.header-part2{
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.header-part2 li{
+    color: #707070;
+}
+
+.header-part3{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.signup{
+    background-color: #306EF7;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.content1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.lastline{
+    color: #FE6783;
+}
+
+.content1-data{
+    font-size: 40px;
+}
+.content1-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.content1-middle p{
+    width: 370px;
+    text-align: center;
+}
+
+.middle-button{
+    display: flex;
+    gap: 20px;
+}
+
+.start-button{
+    background-color: #306EF7;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 150px;
+}
+
+.view-button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 150px;
+    border: 1px solid #707070;
+}
+
+.middle-last{
+    display: flex;
+    background-color: red;
+}
+.last-middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.last-middle p{
+    /* background-color: red; */
+    width: 220px;
+    color: #707070;
+    font-size: 15px;
+}
+
+.page2{
+    /* background-color: red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.page2-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.header-card2{
+    display: flex; 
+    gap: 5px; 
+    align-items: center;
+}
+
+.card p {
+    color: #707070;
+    font-size: 12px;
+}
+
+.page2-heading{
+    font-size: 20px;
+}
+
+.page2-second{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.step1{
+    color: #3D82F2;
+    font-size: 15px;
+}
+
+.page2-second h1{
+    font-size: 40px;
+}
+
+.step1-description{
+    width: 450px;
+    color: #707070;
+}
+.page2-second button{
+    color: #707070;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 150px;
+    border: 1px solid #707070;
+}
