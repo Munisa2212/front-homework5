@@ -308,3 +308,33 @@ button{
     align-items: center;
     margin-top: 50px;
 }
+
+.page7{
+    width: 100%;
+}
+
+.page7 img{
+    width: 100%;
+}
+
+.page8{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.page8 i{
+    font-size: 80px;
+    color: #326CF9;
+}
+
+.page8 h1{
+    font-size: 50px;
+}
+
+.page8 h4{
+    font-weight: 400;
+    font-size: 20px;
+}
